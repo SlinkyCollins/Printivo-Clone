@@ -1,0 +1,30 @@
+/* Change background color on scroll */
+.navbar.scrolled {
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: -webkit-fixed; /* For Safari */
+    position: fixed;
+    height: 75px;
+    animation: moveDown .5s ease-in-out;
+  }
+
+  @keyframes moveDown {
+
+    0% {
+      transform: translateY(-5rem);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+    
+  }
+
+  .navbar {
+    background-color: #ece8d9;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
