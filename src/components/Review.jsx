@@ -5,8 +5,8 @@ const Review = () => {
         <>
             <div style={{ backgroundColor: "#edf6fd", padding: "20px" }}>
                 <h1 style={{ color: "#384a62", fontFamily: "Times new roman, sans-serif", fontWeight: "700", margin: "50px 50px 25px 50px" }}>What Customers Say About Us 🙌🏾</h1>
-                <div style={{ margin: "0px 50px 50px 50px", display: "flex", gap: "2rem" }}>
-                    <div style={{ backgroundColor: "#fff", width: "420px", padding: "10px", height: "180px", position: "relative", border: "1px solid rgb(229, 231, 235)", borderRadius: "5px" }}>
+                <div className="reviewChildWrapper" style={{ padding: "0px 50px 50px 50px", display: "flex", gap: "20px"}}>
+                    <div className="reviewChild" style={{ backgroundColor: "#fff", width: "420px", padding: "10px", height: "180px", position: "relative", border: "1px solid rgb(229, 231, 235)", borderRadius: "5px" }}>
                         <div style={{position: "absolute", left: "15px", top: "18px"}}>
                             <img src={X} alt="" style={{width: "32px",  border: "1px solid rgb(229, 231, 235)", borderRadius: "50%", padding: "8px"}} />
                         </div>
@@ -16,7 +16,7 @@ const Review = () => {
                         </div>
                     </div>
 
-                    <div style={{ backgroundColor: "#fff", width: "420px", padding: "10px", height: "180px", position: "relative", border: "1px solid rgb(229, 231, 235)", borderRadius: "5px" }}>
+                    <div className="reviewChild" style={{ backgroundColor: "#fff", width: "420px", padding: "10px", height: "180px", position: "relative", border: "1px solid rgb(229, 231, 235)", borderRadius: "5px" }}>
                         <div style={{position: "absolute", left: "15px", top: "18px"}}>
                             <img src={X} alt="" style={{width: "32px",  border: "1px solid rgb(229, 231, 235)", borderRadius: "50%", padding: "8px"}} />
                         </div>
@@ -26,7 +26,7 @@ const Review = () => {
                         </div>
                     </div>
 
-                    <div style={{ backgroundColor: "#fff", width: "420px", padding: "10px", height: "180px", position: "relative", border: "1px solid rgb(229, 231, 235)", borderRadius: "5px" }}>
+                    <div className="reviewChild" style={{ backgroundColor: "#fff", width: "420px", padding: "10px", height: "180px", position: "relative", border: "1px solid rgb(229, 231, 235)", borderRadius: "5px" }}>
                         <div style={{position: "absolute", left: "15px", top: "18px"}}>
                             <img src={X} alt="" style={{width: "32px",  border: "1px solid rgb(229, 231, 235)", borderRadius: "50%", padding: "8px"}} />
                         </div>

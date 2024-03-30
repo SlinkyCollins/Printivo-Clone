@@ -28,3 +28,40 @@
     z-index: 1000;
     transition: background-color 0.3s ease;
   }
+
+  .searchWrapper {
+    padding: 15px 10px 10px 10px;
+    flex-direction: row;
+    gap: 10px;
+    display: none;
+  }
+
+  .searchWrapper .searchBtn {
+    background: #d77f81;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+  }
+
+  .searchWrapper #searchInput {
+    width: 84%;
+    border: 1px solid #cbcac8;
+    text-indent: 15px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-radius: .25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgba(56, 74, 98, 1);
+    font-family: sans-serif;
+    font-weight: 500;
+    display: none;
+  }
+
+  #searchInput::placeholder {
+    color: rgba(56, 74, 98, 0.4);
+    font-weight: 550;
+  }

@@ -10,8 +10,9 @@ html {
 }
 
 body {
-  overflow: scroll;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+  max-width: 1500px !important;
+  margin: 0 auto;
 }
 
 .card {
@@ -115,4 +116,340 @@ body {
 
 .amount {
   margin-bottom: -10px;
+}
+
+/* 
+@media screen and (max-width: 1024px) {
+      body {
+        margin: 0px -200px 0px 0px;
+      }
+      .logoGroup {
+        width: 1100px !important;
+      }
+}
+
+@media screen and (max-width: 800px) {
+  .list {
+    display: none !important;
+  }
+  .content-container {
+    padding: 40px;
+  }
+  .main-content {
+    margin: -30px 0px 0px 0px !important;
+    z-index: 500;
+  }
+  .main-content h1 {
+    font-size: 40px !important;
+    margin: 0px 0px 40px;
+  }
+  .main-content p {
+    margin: 40px 0px;
+    font-size: 28px !important;
+  }
+  #questionLabel {
+    font-size: 18px !important;
+    margin: 10px 0;
+  }
+  .helpCall {
+   margin: 0px 0px 0px 40px;
+  }
+  .helpCall p {
+    margin-right: 20rem !important;
+   }
+   .whatsappLogo {
+    margin-right: 10rem !important;
+   }
+  .searchWrapper {
+    display: flex;
+  }
+  .searchWrapper .searchBtn {
+    background: #fff;
+    color: #384a62;
+    margin: 0px 0px 0px 15px;
+  }
+  .searchWrapper #searchInput {
+    display: none;
+  }
+  .logoGroup {
+    width: 400px !important;
+  }
+  .content-box {
+    position: relative;
+    z-index: 500;
+  }
+  .imageHolder img {
+    position: absolute;
+    right: 0;
+    margin: -20px -37px 0px 0px !important;
+  }
+  #printivologo {
+    width: 11rem !important;
+    margin: 0px 0px 0px -25px;
+  }
+  .noticesContainer {
+    display: none;
+  }
+  #mainSearchInput {
+    width: 700px !important;
+  }
+  #navbar {
+    height: 180px;
+    padding-top: 15px !important;
+  } 
+} */
+
+
+/*Extra Large Devices, 4K devices*/
+@media (min-width: 1215px) {
+  /* body {
+    width: 100%;
+    font-size: 30px;
+  } */
+  .logoGroup {
+    width: 100% !important;
+  }
+}
+
+/*Large Devices, Desktops*/
+@media (min-width: 992px) and (max-width: 1213.99px) {
+  .logoGroup {
+    width: 100% !important;
+  }
+  .main-content {
+    position: relative;
+    z-index: 400;
+  }
+  .content-container {
+    padding: 0px 0px 40px 0px !important;
+  }
+  .mainImage {
+    width: 28rem !important; 
+    position: absolute;
+    right: 0;
+    margin-top: 45px !important;
+  }
+  .noticesContainer {
+    flex-wrap: wrap;
+  }
+  .noticesContainer div {
+    margin: 20px !important;
+  }
+  .footerWrapper {
+    flex-wrap: wrap;
+  }
+  .reviewChildWrapper {
+    flex-wrap: wrap;
+    gap: 14px !important;
+    padding-right: 0px !important;
+  }
+  .needhelp {
+    margin-right: 65px !important;
+  }
+  /* .reviewChildWrapper .reviewChild {
+    padding: 10px !important;
+  } */
+}
+
+/*Laptops, Medium Devices*/
+@media (min-width: 800px) and (max-width: 991.98px) {
+  .logoGroup {
+    width: 100% !important;
+  }
+  .mainImage {
+    width: 25rem !important; 
+    position: absolute;
+    right: 0;
+    margin-top: 70px !important;
+  }
+  .content-container {
+    padding: 0px 0px 40px 0px !important;
+  }
+  .main-content {
+    position: relative;
+    z-index: 400;
+    margin: 60px 0px 0px 15px !important;
+  }
+  .reviewChildWrapper {
+    flex-wrap: wrap;
+    gap: 14px !important;
+    padding-right: 5px !important;
+  }
+  .noticesContainer {
+    flex-wrap: wrap;
+  }
+  .noticesContainer div {
+    margin: 20px !important;
+  }
+  .footerWrapper {
+    flex-wrap: wrap;
+  }
+  .special-child1 {
+    margin-right: 70px;
+  }
+   .featureChildContainer {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .list-wrapper .list {
+    gap: 20px !important;
+    margin-left: 15px !important;
+  }
+  .list-wrapper .list > li > a {
+    font-size: 11px !important;
+  }
+  .needhelp {
+    margin-right: 45px !important;
+    font-size: 11px !important;
+  }
+  .needhelp > a { 
+    font-size: 11px !important;
+  }
+  .navbar nav > a {
+    margin: 25px 0px 10px 15px !important;
+  }
+  .navbar nav > a > img {
+    width: 7rem !important;
+  }
+  .nigeriaFlagContainer {
+    margin-right: -50px !important;
+  }
+  .printivo-list li > a{
+    /* gap: 15px !important; */
+    font-size: 11px !important;
+  }
+}
+
+
+/*Small Devices, Tablets*/
+@media (min-width: 640px) and (max-width: 799.98px){
+  /* body {
+    background-color: aqua;
+  } */
+  .logoGroup {
+    width: 100% !important;
+  }
+  .content-container {
+    padding: 0px 0px 60px 0px !important;
+  }
+  .mainImage {
+    width: 22rem !important; 
+    position: absolute;
+    right: 0;
+    margin-top: 43px !important;
+  }
+  .main-content {
+    position: relative;
+    z-index: 400;
+    margin: 10px 0px 0px 30px !important;
+  }
+  .main-content h1 {
+    font-size: 38px !important;
+  }
+  .main-content p {
+    font-size: 25px !important;
+    margin-top: 26px !important;
+  }
+  #questionLabel {
+    font-size: 15px !important;
+    margin-top: 30px !important;
+  }
+  .searchWrapper {
+    display: flex;
+    margin-top: -10px !important;
+  }
+  .searchWrapper .searchBtn {
+    background: #fff;
+    color: #384a62;
+    margin: 0px 0px 0px 10px;
+  }
+  .searchWrapper #searchInput {
+    width: 83% !important;
+    /* display: none !important; */
+  }
+  .noticesContainer {
+    flex-wrap: wrap;
+  }
+  .noticesContainer div {
+    margin: 20px !important;
+  }
+  .footerWrapper {
+    flex-wrap: wrap;
+    /* gap: 100px !important; */
+  }
+  .list-wrapper {
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+  .list-wrapper ul {
+    display: none !important;
+  }
+  .list-wrapper .list {
+    margin-left: 0px !important;
+    gap: 0px !important;
+  }
+  .list-wrapper .list > li > a {
+    display: none;
+  }
+  .printivo-list .list{
+    /* gap: 15px !important; */
+    /* font-size: 11px !important; */
+    display: none;
+  }
+  .printivo-list{
+    margin: 25px 0px 10px 0px !important;
+  }
+  .printivo-list li {
+    font-size: 12px !important;
+    margin-right: -20px !important;
+  }
+  .printivo-list a {
+    margin: -6px 30px 0px 0px !important;
+  }
+  .navbar.scrolled {
+    height: auto !important;
+  }
+  #mainSearchInput {
+    width: 585px !important;
+  }
+  .needhelp {
+    margin-left: 20px !important;
+    font-size: 11px !important;
+  }
+  .needhelp a {
+    font-size: 11px !important;
+  }
+  .whatsappLogo {
+    margin-right: 60px !important;
+    text-align: center;
+  }
+  .helpCall {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+    width: 100% !important;
+  }
+  .navbar > nav > a > img {
+    margin:10px 0px 10px -30px !important;
+    width: 8rem !important;
+  }
+  .featureChildContainer {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .reviewChildWrapper {
+    flex-wrap: wrap;
+    /* gap: 14px !important; */
+    padding: 0px 50px 50px 60px !important;
+  }
+}
+
+/*Extra Small Devices (Phones) */
+@media (max-width: 639.98px) {
+  body {
+    background-color: aqua;
+  }
+  .mainImage {
+    display: none;
+  }
 }

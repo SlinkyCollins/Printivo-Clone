@@ -13,7 +13,7 @@ import Footer from './components/Footer.jsx';
 function App() {
 
   return (
-    <>
+    <div>
       <Navbar/>
       <Main/>
       <Product/>
@@ -22,7 +22,7 @@ function App() {
             display: "grid", 
             gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", 
             gridGap: "5px", 
-            margin: "-30px 20px 0px 38px"
+            margin: "0px 40px 0px 40px"
           }}>
           <Card
             title="Two-sided Business Cards"
@@ -102,7 +102,7 @@ function App() {
           style= {{
               display: 'flex',
               gap: "10px",
-              margin: "-30px 0px 0px 38px"
+              margin: "0px 0px 0px 40px"
           }}>
           <Card
             title="Greeting Cards"
@@ -122,7 +122,7 @@ function App() {
       <Feature/>
       <Notices/>
       <Footer/>
-    </>
+    </div>
   )
 }
 

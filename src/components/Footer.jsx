@@ -9,8 +9,8 @@ import shippingLogos from "../assets/shipping.png";
 const Footer = () => {
   return (
     <>
-        <div style={{background: "#384a62", color: "#fff", display: "flex", padding: "65px 50px 110px 50px"}}>
-            <div style={{display: "flex", flexDirection: "column", margin: "0px 190px 0px 0px"}}>
+        <div className="footerWrapper" style={{background: "#384a62", color: "#fff", display: "flex", padding: "80px 50px 90px 50px", gap: "120px"}}>
+            <div className="child special-child1" style={{display: "flex", flexDirection: "column"}}>
                 <h1 style={{fontSize: "18px", fontWeight: "500", margin: "0px 0px 20px 0px"}}>Printivo</h1>
                 <a href="">About Us</a>
                 <a href="">Contact</a>
@@ -19,7 +19,7 @@ const Footer = () => {
                 <a href="">Printivo Blog</a>
                 <a href="">Career</a>
             </div>
-            <div style={{display: "flex", flexDirection: "column", margin: "0px 110px 0px 0px"}}>
+            <div className="child special-child2" style={{display: "flex", flexDirection: "column"}}>
                 <h1 style={{fontSize: "18px", fontWeight: "500", margin: "0px 0px 20px 0px"}}>Help and Information</h1>
                 <a href="">Paper Quality</a>
                 <a href="">Privacy Policy</a>
@@ -27,14 +27,14 @@ const Footer = () => {
                 <a href="">Font Licenses</a>
                 <a href="">Shipping and Delivery</a>
             </div>
-            <div style={{display: "flex", flexDirection: "column", margin: "0px 100px 0px 0px"}}>
+            <div className="child special-child3" style={{display: "flex", flexDirection: "column"}}>
                 <h1 style={{fontSize: "18px", fontWeight: "500", margin: "0px 0px 20px 0px"}}>Make Money</h1>
                 <a href="">Refer a friend & earn N1,000</a>
                 <a href="">Become a Reseller</a>
                 <a href="">Sell your Designs</a>
                 <a href="">Merch Store</a>
             </div>
-            <div>
+            <div className="child special-child4">
                 <div style={{margin: "0px 0px 22px 0px"}}>
                     <h1 style={{fontSize: "18px", fontWeight: "500", margin: "0px 0px 20px 0px"}}>Follow Us</h1>
                     <div style={{display: "flex", flexDirection: "row", gap: "18px"}}>
