@@ -125,88 +125,6 @@ a {
   margin-bottom: -10px;
 }
 
-/* 
-@media screen and (max-width: 1024px) {
-      body {
-        margin: 0px -200px 0px 0px;
-      }
-      .logoGroup {
-        width: 1100px !important;
-      }
-}
-
-@media screen and (max-width: 800px) {
-  .list {
-    display: none !important;
-  }
-  .content-container {
-    padding: 40px;
-  }
-  .main-content {
-    margin: -30px 0px 0px 0px !important;
-    z-index: 500;
-  }
-  .main-content h1 {
-    font-size: 40px !important;
-    margin: 0px 0px 40px;
-  }
-  .main-content p {
-    margin: 40px 0px;
-    font-size: 28px !important;
-  }
-  #questionLabel {
-    font-size: 18px !important;
-    margin: 10px 0;
-  }
-  .helpCall {
-   margin: 0px 0px 0px 40px;
-  }
-  .helpCall p {
-    margin-right: 20rem !important;
-   }
-   .whatsappLogo {
-    margin-right: 10rem !important;
-   }
-  .searchWrapper {
-    display: flex;
-  }
-  .searchWrapper .searchBtn {
-    background: #fff;
-    color: #384a62;
-    margin: 0px 0px 0px 15px;
-  }
-  .searchWrapper #searchInput {
-    display: none;
-  }
-  .logoGroup {
-    width: 400px !important;
-  }
-  .content-box {
-    position: relative;
-    z-index: 500;
-  }
-  .imageHolder img {
-    position: absolute;
-    right: 0;
-    margin: -20px -37px 0px 0px !important;
-  }
-  #printivologo {
-    width: 11rem !important;
-    margin: 0px 0px 0px -25px;
-  }
-  .noticesContainer {
-    display: none;
-  }
-  #mainSearchInput {
-    width: 700px !important;
-  }
-  #navbar {
-    height: 180px;
-    padding-top: 15px !important;
-  } 
-} */
-
-
 /*Extra Large Devices, 4K devices*/
 @media (min-width: 1215px) {
   /* body {
@@ -897,5 +815,17 @@ a {
 }
 .button {
   margin: -5px 0px 0px !important;
+}
+.footerWrapper {
+  padding: 40px 50px 90px 20px !important;
+}
+.featureContainer {
+  margin: 100px 0px 100px 30px !important;
+}
+.featureContainerHeader {
+  font-size: 26px !important;
+}
+.featureWrapper {
+  flex-direction: column !important;
 }
 }
