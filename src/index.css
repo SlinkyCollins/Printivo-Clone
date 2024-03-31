@@ -15,6 +15,14 @@ body {
   margin: 0 auto;
 }
 
+button {
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+}
+
 .card {
   border: 1px solid;
   border-color: rgb(229, 231, 235);
@@ -79,7 +87,6 @@ body {
   font-weight: 500;
   text-align: left;
   position: relative;
-  cursor: pointer;
 }
 
 .button-text {
@@ -110,7 +117,7 @@ body {
 
 .quantity {
   color: #748097;
-  font-size: 14xpx;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -244,7 +251,7 @@ body {
     padding-right: 0px !important;
   }
   .needhelp {
-    margin-right: 65px !important;
+    margin-right: 0px !important;
   }
   /* .reviewChildWrapper .reviewChild {
     padding: 10px !important;
@@ -270,10 +277,23 @@ body {
     z-index: 400;
     margin: 60px 0px 0px 15px !important;
   }
+  .reviewOverallContainer {
+    /* margin: 0 auto !important; */
+    padding: 10px 150px 60px 150px !important;
+  }
+  .reviewOverallContainer h1 {
+    width: 100% !important;
+    text-align: left !important;
+    margin-left: 0px !important;
+  }
   .reviewChildWrapper {
     flex-wrap: wrap;
-    gap: 14px !important;
-    padding-right: 5px !important;
+    /* gap: 14px !important; */
+    /* padding-right: 5px !important; */
+    padding: 0px !important;
+  }
+  .reviewChildWrapper .reviewChild {
+    width: 40rem !important;
   }
   .noticesContainer {
     flex-wrap: wrap;
@@ -299,10 +319,10 @@ body {
     font-size: 11px !important;
   }
   .needhelp {
-    margin-right: 45px !important;
+    margin-right: 0px !important;
     font-size: 11px !important;
   }
-  .needhelp > a { 
+  .needhelpContainer > a { 
     font-size: 11px !important;
   }
   .navbar nav > a {
@@ -388,9 +408,9 @@ body {
     margin-left: 0px !important;
     gap: 0px !important;
   }
-  .list-wrapper .list > li > a {
+  /* .list-wrapper .list > li > a {
     display: none;
-  }
+  } */
   .printivo-list .list{
     /* gap: 15px !important; */
     /* font-size: 11px !important; */
@@ -416,7 +436,7 @@ body {
     margin-left: 20px !important;
     font-size: 11px !important;
   }
-  .needhelp a {
+  .needhelpContainer a {
     font-size: 11px !important;
   }
   .whatsappLogo {
@@ -442,14 +462,440 @@ body {
     /* gap: 14px !important; */
     padding: 0px 50px 50px 60px !important;
   }
+  .reviewChildWrapper .reviewChild {
+    width: 50rem !important;
+  }
 }
 
 /*Extra Small Devices (Phones) */
-@media (max-width: 639.98px) {
-  body {
-    background-color: aqua;
-  }
+@media (min-width: 425px) and (max-width: 639.98px) {
   .mainImage {
     display: none;
   }
+  .logoGroup {
+    width: 100% !important;
+  }
+  .footerWrapper {
+    flex-wrap: wrap;
+    gap: 50px !important;
+  }
+  .featureChildContainer {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .noticesContainer {
+    flex-wrap: wrap;
+  }
+  .noticesContainer div {
+    margin: 20px !important;
+  }
+  .reviewChildWrapper {
+    flex-wrap: wrap;
+    /* gap: 14px !important; */
+    padding: 20px 50px 60px 50px !important;
+  }
+  .reviewChildWrapper .reviewChild {
+    width: 50rem !important;
+    height: auto !important;
+  }
+  .category {
+    flex-wrap: wrap;
+  }
+  .printivo-list .list{
+    display: none;
+  }
+  #mainSearchInput {
+    width: 395px !important;
+  }
+  .list-wrapper ul {
+    display: none !important;
+  }
+  .list-wrapper {
+    width: 100% !important;
+    /* gap: 20px !important; */
+    justify-content: space-evenly !important;
+  }
+  .content-container {
+    padding: 0px 0px 80px 0px !important;
+    width: 100% !important;
+  }
+  .main-content {
+    margin: 10px 0px 0px 20px !important;
+  }
+  .main-content h1 {
+    font-size: 38px !important;
+  }
+  .main-content p {
+    font-size: 23px !important;
+    margin-top: 26px !important;
+  }
+  #questionLabel {
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    margin-top: 30px !important;
+  }
+  .helpCall {
+    margin-right: 0px !important;
+  }
+  .needhelpContainer {
+    gap: 30px !important;
+  }
+  .needhelpContainer a {
+    margin: 0px 0px 0px 0px !important;
+  }
+  .needhelpContainer .needhelp {
+    margin-right: 0px !important;
+    display: none !important;
+  }
+  .whatsappNigeriaLogoWrapper {
+    gap: 50px !important;
+  }
+  .nigeriaFlagContainer {
+    margin-right: 0px !important;
+    font-size: 10px !important;
+    padding: 12px !important;
+    border-radius: 60px !important;
+    /* width: 100% !important; */
+  }
+  .nigeriaFlagContainer .nigeriaFlagContainer-text {
+    font-size: 10px !important;
+  }
+  .nigeriaFlagContainer .nigeriaFlagContainer-image > img {
+    width: 14px !important;
+    margin-right: 5px !important;
+  }
+  .whatsappLogo {
+    /* margin: 0px 80px 0px 0px !important; */
+    /* font-size: 10px !important; */
+  }
+  .searchWrapper {
+    display: flex;
+    /* margin-top: -10px !important; */
+  }
+  .searchWrapper .searchBtn {
+    background: #fff;
+    color: #384a62;
+    margin: 0px 0px 0px 10px;
+  }
+  .searchWrapper #searchInput {
+    /* width: 83% !important; */
+    /* margin: 0px 0px 0px 0px; */
+  }
+  .navbar.scrolled {
+    height: auto !important;
+  }
+  .navbar > nav > a > img {
+    margin:10px 0px 10px -30px !important;
+    width: 9rem !important;
+  }
+  .product {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) !important;
+    /* grid-gap: 20px !important; */
+    /* margin: 0px !important; */
+  }
+  .productTextWrapper {
+    /* gap: 50px !important; */
+    margin: 60px 40px 25px 40px !important;
+  }
+  .productTextWrapper h1 {
+    font-size: 22px !important;
+  }
+  .productTextWrapper p {
+    font-size: 14px !important;
+  }
+  .category {
+    margin: 0px 40px !important;
+  }
+  .categoryTextWrapper {
+    margin: 80px 40px 25px 40px !important;
+  }
+  .categoryTextWrapper h1 {
+    font-size: 22px !important;
+  }
+  .categoryTextWrapper p {
+    font-size: 14px !important;
+  }
+  .card {
+    max-width: 550px;
+    max-height: 500px;
+    height: auto;
+    padding: 20px !important;
+    margin: 10px auto !important;
+  }
+  .image-wrapper {
+    overflow: hidden !important;
+    margin: -20px -20px 0px -20px;
+    /* padding: -20px !important; */
+  }
+  .card-image {
+    width: 50rem !important;
+    height: 300px;
+  }
+  .card .card-title {
+  margin: -15px 0px -10px 0px;
+  font-size: 18px;
+  width: 100% !important;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 550;
+}
+
+.quantity {
+  font-size: 16px;
+  font-weight: 600;
+}
+.button {
+  margin: -5px 0px 0px !important;
+}
+}
+
+@media (max-width: 424.98px) {
+  .mainImage {
+    display: none;
+  }
+  .logoGroup {
+    width: 100% !important;
+  }
+  .footerWrapper {
+    flex-wrap: wrap;
+    gap: 50px !important;
+  }
+  .featureChildContainer {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .noticesContainer {
+    flex-wrap: wrap;
+  }
+  .noticesContainer div {
+    margin: 20px !important;
+  }
+  .reviewChildWrapper {
+    flex-wrap: wrap;
+    /* gap: 14px !important; */
+    padding: 0px 0px 50px 0px !important;
+  }
+  .reviewChildWrapper .reviewChild {
+    height: auto !important;
+    flex-wrap: wrap !important;
+    width: 500px !important;
+    padding: 10px !important;
+    margin: 0px !important;
+  }
+  .category {
+    /* flex-wrap: wrap; */
+    /* width: 100% !important; */
+    padding: 0px 35px 0px 35px !important;
+  }
+  .printivo-list .list{
+    display: none;
+  }
+  .printivo-list a {
+    margin: -4px 30px 0px -30px !important;
+  }
+  #signInList a {
+    font-size: 12px !important;
+    /* margin-top: -5px !important; */
+  }
+  #mainSearchInput {
+    width: 100% !important;
+  }
+  .list-wrapper ul {
+    display: none !important;
+  }
+  .list-wrapper {
+    width: 100% !important;
+    /* gap: 20px !important; */
+    justify-content: space-between !important;
+  }
+  .content-container {
+    padding: 0px 0px 40px 0px !important;
+    width: 100% !important;
+  }
+  .main-content {
+    margin: 10px 0px 0px 20px !important;
+    width: 100% !important;
+  }
+  .main-content h1 {
+    font-size: 33px !important;
+  }
+  .main-content p {
+    font-size: 21px !important;
+    margin-top: 26px !important;
+    width: 80% !important;
+  }
+  #questionLabel {
+    font-size: 15px !important;
+    font-weight: 700 !important;
+    margin-top: 40px !important;
+    width: 100% !important;
+  }
+  .helpCall {
+    margin-right: 0px !important;
+  }
+  .needhelpContainer {
+    gap: 30px !important;
+  }
+  .needhelpContainer a {
+    margin: 0px -30px 0px 15px !important;
+    font-size: 10px !important;
+  }
+  .needhelpContainer .needhelp {
+    margin-right: 0px !important;
+    display: none !important;
+  }
+  .whatsappNigeriaLogoWrapper {
+    gap: 50px !important;
+    margin: 0px 0px 0px 0px !important;
+  }
+  .nigeriaFlagContainer {
+    margin-right: 0px !important;
+    font-size: 10px !important;
+    padding: 12px !important;
+    border-radius: 60px !important;
+    /* width: 100% !important; */
+  }
+  .nigeriaFlagContainer .nigeriaFlagContainer-text {
+    font-size: 9px !important;
+    margin-top: 2px !important;
+  }
+  .nigeriaFlagContainer .nigeriaFlagContainer-image > img {
+    width: 13px !important;
+    margin-right: 5px !important;
+  }
+  .whatsappLogo {
+    /* margin: 0px 80px 0px 0px !important; */
+    /* font-size: 10px !important; */
+  }
+  .searchWrapper {
+    display: flex;
+    /* margin-top: -10px !important; */
+  }
+  .searchWrapper .searchBtn {
+    background: #fff;
+    color: #384a62;
+    margin: 0px 0px 0px 10px;
+    padding: 10px 18px;
+    font-size: 13px;
+  }
+  /* .searchInputWrapper {
+    position: none !important;
+  } */
+  .searchInputWrapper #mainSearchInput {
+    width: 100% !important;
+    margin: 0px 10px 0px 0px;
+    font-size: 12px !important;
+    padding: 25px !important;
+  }
+  .searchInputWrapper #mainSearchInput::placeholder {
+    color: rgba(56, 74, 98, 0.4) !important;
+  }
+  .searchInputWrapper a img {
+    margin: 20px 25px 0px 0px !important;
+  }
+  .navbar.scrolled {
+    height: auto !important;
+  }
+  .navbar > nav > a > img {
+    margin: 5px 0px 0px -30px !important;
+    width: 7rem !important;
+  }
+  .product {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+    margin: 0px 20px 0px 20px !important;
+  }
+  .productTextWrapper {
+    gap: 0px !important;
+    margin: 60px 20px 25px 20px !important;
+  }
+  .productTextWrapper h1 {
+    font-size: 18px !important;
+  }
+  .productTextWrapper p {
+    font-size: 12px !important;
+  }
+  .category {
+    margin: 0px 0px 0px -16px !important;
+    flex-wrap: wrap;
+    /* width: 80% !important; */
+  }
+  .categoryTextWrapper {
+    gap: 0px !important;
+    margin: 60px 20px 25px 20px !important;
+  }
+  .categoryTextWrapper h1 {
+    font-size: 18px !important;
+  }
+  .categoryTextWrapper p {
+    font-size: 11px !important;
+    margin-top: 2px !important;
+  }
+  .card {
+    max-width: 400px;
+    max-height: 500px;
+    height: auto;
+    /* padding: 20px !important; */
+    margin: 10px auto 0px auto !important;
+  }
+  .image-wrapper {
+    overflow: hidden !important;
+    margin: -20px -20px 0px -20px;
+    /* padding: -20px !important; */
+  }
+  .card-image {
+    width: 40rem !important;
+    height: 200px;
+  }
+  .card .card-title {
+  margin: -15px 0px -10px 0px;
+  font-size: 18px;
+  width: 100% !important;
+  font-weight: 600;
+}
+.logoWrapper {
+  margin: 100px 30px 50px 30px !important;
+}
+.logoWrapper h1 {
+  width: 100% !important;
+  font-size: 33px !important;
+}
+
+.logoWrapper p {
+  font-size: 16px !important;
+  word-spacing: normal !important;
+}
+
+.reviewOverallContainer .reviewOverallContainerHeader {
+  /* width: 100% !important; */
+  font-size: 28px !important;
+  margin: 50px 20px 25px 20px !important;
+  /* text-align: left !important;
+  margin-left: 0px !important; */
+}
+
+.noticesAllWrapper {
+  margin: 0px 0px 0px -40px !important;
+}
+
+.noticesAllWrapper h1 {
+  text-align: left !important;
+  margin: 0px 0px 35px 0px !important;
+  padding-left: 10px !important;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 550;
+}
+
+.quantity {
+  font-size: 16px;
+  font-weight: 600;
+}
+.button {
+  margin: -5px 0px 0px !important;
+}
 }

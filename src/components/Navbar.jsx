@@ -24,18 +24,21 @@ const Navbar = () => {
             </ul>
 
             <div className="helpCall" style={{display: "flex", alignItems: "center", marginRight: "75px"}}>
-                <p className="needhelp" style={{fontSize: "13px", fontWeight: "500", marginRight: "80px"}}>Need Help? Call:<a href="" style={{textDecoration: "none", color: "#1da2f2"}}>+2342013306047</a></p>
-                <div style={{display: "flex", gap: "65px"}}>
+                <div className="needhelpContainer" style={{display: "flex", marginRight: "80px", alignItems: "center"}}>
+                    <span className="needhelp" style={{fontSize: "13px", fontWeight: "500"}}>Need Help? Call:</span>
+                    <a href="" style={{textDecoration: "none", color: "#1da2f2", fontSize: "13px", marginTop: "5px"}}>+2342013306047</a>
+                </div>
+                <div className="whatsappNigeriaLogoWrapper" style={{display: "flex", gap: "65px"}}>
 
                     <a className="whatsappLogo" style={{color: "green", marginTop: "5px"}}>
                         <RiWhatsappFill  style={{fontSize: "30px"}}/>
                     </a>  
 
                     <div className="nigeriaFlagContainer" style={{fontSize: "13px", fontWeight: "500",  border: "1px solid #ccc", padding: "10px", borderRadius: "30px",  marginRight: "-20px", display: "flex"}}>
-                        <div>
+                        <div className="nigeriaFlagContainer-image">
                             <img style={{width: "18px", marginRight: "8px"}} src={Flag} />
                         </div>
-                        <div>
+                        <div className="nigeriaFlagContainer-text">
                             <p> Nigeria</p>
                         </div>
                     </div>
@@ -52,7 +55,7 @@ const Navbar = () => {
                     <li className="list"><a href=""  style={{textDecoration: "none", color: "#3c4d64", fontSize: "14px", fontWeight: "500"}}>Become a Reseller</a></li>
                     <li className="list"><a href=""  style={{textDecoration: "none", color: "#3c4d64", fontSize: "14px", fontWeight: "500"}}>Merch Store</a></li>
                     <li className="list"><a href=""  style={{textDecoration: "none", color: "#3c4d64", fontSize: "14px", fontWeight: "500"}}>Marketplace</a></li>
-                    <li><a href=""  style={{textDecoration: "none", color: "#d88384", fontSize: "14px", fontWeight: "500"}}>Sign in</a></li>
+                    <li id="signInList"><a href=""  style={{textDecoration: "none", color: "#d88384", fontSize: "14px", fontWeight: "500"}}>Sign in</a></li>
                     <li className="list"><a href=""  style={{textDecoration: "none", color: "#3c4d64", fontSize: "14px", fontWeight: "500"}}>Create Account</a></li>
                     <a href="" style={{margin: "-6px 50px 0px 0px"}}><img src={ShopIcon} alt="" /></a>
                 </ul>

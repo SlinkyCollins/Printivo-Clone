@@ -3,8 +3,8 @@ import X from "../assets/x.svg"
 const Review = () => {
     return (
         <>
-            <div style={{ backgroundColor: "#edf6fd", padding: "20px" }}>
-                <h1 style={{ color: "#384a62", fontFamily: "Times new roman, sans-serif", fontWeight: "700", margin: "50px 50px 25px 50px" }}>What Customers Say About Us 🙌🏾</h1>
+            <div className="reviewOverallContainer" style={{ backgroundColor: "#edf6fd", padding: "20px" }}>
+                <h1  className="reviewOverallContainerHeader" style={{ color: "#384a62", fontFamily: "Times new roman, sans-serif", fontWeight: "700", margin: "50px 50px 25px 50px" }}>What Customers Say About Us 🙌🏾</h1>
                 <div className="reviewChildWrapper" style={{ padding: "0px 50px 50px 50px", display: "flex", gap: "20px"}}>
                     <div className="reviewChild" style={{ backgroundColor: "#fff", width: "420px", padding: "10px", height: "180px", position: "relative", border: "1px solid rgb(229, 231, 235)", borderRadius: "5px" }}>
                         <div style={{position: "absolute", left: "15px", top: "18px"}}>

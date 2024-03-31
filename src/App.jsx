@@ -17,7 +17,7 @@ function App() {
       <Navbar/>
       <Main/>
       <Product/>
-        <div 
+        <div className="product"
           style= {{
             display: "grid", 
             gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", 
@@ -98,11 +98,12 @@ function App() {
           />
         </div>
       <Category />
-        <div 
+        <div className="category"
           style= {{
-              display: 'flex',
+              display: "flex",
               gap: "10px",
-              margin: "0px 0px 0px 40px"
+              margin: "0px 0px 0px 40px",
+              flexWrap: "wrap",
           }}>
           <Card
             title="Greeting Cards"
