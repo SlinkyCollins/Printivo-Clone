@@ -10,7 +10,6 @@ html {
 }
 
 body {
-  /* overflow-x: hidden; */
   max-width: 1500px !important;
   margin: 0 auto;
 }
@@ -127,10 +126,6 @@ a {
 
 /*Extra Large Devices, 4K devices*/
 @media (min-width: 1215px) {
-  /* body {
-    width: 100%;
-    font-size: 30px;
-  } */
   .logoGroup {
     width: 100% !important;
   }
@@ -149,7 +144,7 @@ a {
     padding: 0px 0px 40px 0px !important;
   }
   .mainImage {
-    width: 28rem !important; 
+    width: 28rem !important;
     position: absolute;
     right: 0;
     margin-top: 45px !important;
@@ -171,9 +166,6 @@ a {
   .needhelp {
     margin-right: 0px !important;
   }
-  /* .reviewChildWrapper .reviewChild {
-    padding: 10px !important;
-  } */
 }
 
 /*Laptops, Medium Devices*/
@@ -182,7 +174,7 @@ a {
     width: 100% !important;
   }
   .mainImage {
-    width: 25rem !important; 
+    width: 25rem !important;
     position: absolute;
     right: 0;
     margin-top: 70px !important;
@@ -196,7 +188,6 @@ a {
     margin: 60px 0px 0px 15px !important;
   }
   .reviewOverallContainer {
-    /* margin: 0 auto !important; */
     padding: 10px 150px 60px 150px !important;
   }
   .reviewOverallContainer h1 {
@@ -206,8 +197,6 @@ a {
   }
   .reviewChildWrapper {
     flex-wrap: wrap;
-    /* gap: 14px !important; */
-    /* padding-right: 5px !important; */
     padding: 0px !important;
   }
   .reviewChildWrapper .reviewChild {
@@ -225,7 +214,7 @@ a {
   .special-child1 {
     margin-right: 70px;
   }
-   .featureChildContainer {
+  .featureChildContainer {
     flex-wrap: wrap;
     gap: 50px;
   }
@@ -240,7 +229,7 @@ a {
     margin-right: 0px !important;
     font-size: 11px !important;
   }
-  .needhelpContainer > a { 
+  .needhelpContainer > a {
     font-size: 11px !important;
   }
   .navbar nav > a {
@@ -252,18 +241,13 @@ a {
   .nigeriaFlagContainer {
     margin-right: -50px !important;
   }
-  .printivo-list li > a{
-    /* gap: 15px !important; */
+  .printivo-list li > a {
     font-size: 11px !important;
   }
 }
 
-
 /*Small Devices, Tablets*/
-@media (min-width: 640px) and (max-width: 799.98px){
-  /* body {
-    background-color: aqua;
-  } */
+@media (min-width: 640px) and (max-width: 799.98px) {
   .logoGroup {
     width: 100% !important;
   }
@@ -271,7 +255,7 @@ a {
     padding: 0px 0px 60px 0px !important;
   }
   .mainImage {
-    width: 22rem !important; 
+    width: 22rem !important;
     position: absolute;
     right: 0;
     margin-top: 43px !important;
@@ -303,7 +287,6 @@ a {
   }
   .searchWrapper #searchInput {
     width: 83% !important;
-    /* display: none !important; */
   }
   .noticesContainer {
     flex-wrap: wrap;
@@ -313,7 +296,6 @@ a {
   }
   .footerWrapper {
     flex-wrap: wrap;
-    /* gap: 100px !important; */
   }
   .list-wrapper {
     justify-content: space-between !important;
@@ -326,15 +308,10 @@ a {
     margin-left: 0px !important;
     gap: 0px !important;
   }
-  /* .list-wrapper .list > li > a {
-    display: none;
-  } */
-  .printivo-list .list{
-    /* gap: 15px !important; */
-    /* font-size: 11px !important; */
+  .printivo-list .list {
     display: none;
   }
-  .printivo-list{
+  .printivo-list {
     margin: 25px 0px 10px 0px !important;
   }
   .printivo-list li {
@@ -368,7 +345,7 @@ a {
     width: 100% !important;
   }
   .navbar > nav > a > img {
-    margin:10px 0px 10px -30px !important;
+    margin: 10px 0px 10px -30px !important;
     width: 8rem !important;
   }
   .featureChildContainer {
@@ -377,7 +354,6 @@ a {
   }
   .reviewChildWrapper {
     flex-wrap: wrap;
-    /* gap: 14px !important; */
     padding: 0px 50px 50px 60px !important;
   }
   .reviewChildWrapper .reviewChild {
@@ -409,7 +385,6 @@ a {
   }
   .reviewChildWrapper {
     flex-wrap: wrap;
-    /* gap: 14px !important; */
     padding: 20px 50px 60px 50px !important;
   }
   .reviewChildWrapper .reviewChild {
@@ -419,7 +394,7 @@ a {
   .category {
     flex-wrap: wrap;
   }
-  .printivo-list .list{
+  .printivo-list .list {
     display: none;
   }
   #mainSearchInput {
@@ -430,7 +405,6 @@ a {
   }
   .list-wrapper {
     width: 100% !important;
-    /* gap: 20px !important; */
     justify-content: space-evenly !important;
   }
   .content-container {
@@ -473,7 +447,6 @@ a {
     font-size: 10px !important;
     padding: 12px !important;
     border-radius: 60px !important;
-    /* width: 100% !important; */
   }
   .nigeriaFlagContainer .nigeriaFlagContainer-text {
     font-size: 10px !important;
@@ -482,37 +455,25 @@ a {
     width: 14px !important;
     margin-right: 5px !important;
   }
-  .whatsappLogo {
-    /* margin: 0px 80px 0px 0px !important; */
-    /* font-size: 10px !important; */
-  }
   .searchWrapper {
     display: flex;
-    /* margin-top: -10px !important; */
   }
   .searchWrapper .searchBtn {
     background: #fff;
     color: #384a62;
     margin: 0px 0px 0px 10px;
   }
-  .searchWrapper #searchInput {
-    /* width: 83% !important; */
-    /* margin: 0px 0px 0px 0px; */
-  }
   .navbar.scrolled {
     height: auto !important;
   }
   .navbar > nav > a > img {
-    margin:10px 0px 10px -30px !important;
+    margin: 10px 0px 10px -30px !important;
     width: 9rem !important;
   }
   .product {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) !important;
-    /* grid-gap: 20px !important; */
-    /* margin: 0px !important; */
   }
   .productTextWrapper {
-    /* gap: 50px !important; */
     margin: 60px 40px 25px 40px !important;
   }
   .productTextWrapper h1 {
@@ -543,31 +504,30 @@ a {
   .image-wrapper {
     overflow: hidden !important;
     margin: -20px -20px 0px -20px;
-    /* padding: -20px !important; */
   }
   .card-image {
     width: 50rem !important;
     height: 300px;
   }
   .card .card-title {
-  margin: -15px 0px -10px 0px;
-  font-size: 18px;
-  width: 100% !important;
-  font-weight: 600;
-}
+    margin: -15px 0px -10px 0px;
+    font-size: 18px;
+    width: 100% !important;
+    font-weight: 600;
+  }
 
-.price {
-  font-size: 22px;
-  font-weight: 550;
-}
+  .price {
+    font-size: 22px;
+    font-weight: 550;
+  }
 
-.quantity {
-  font-size: 16px;
-  font-weight: 600;
-}
-.button {
-  margin: -5px 0px 0px !important;
-}
+  .quantity {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .button {
+    margin: -5px 0px 0px !important;
+  }
 }
 
 @media (max-width: 424.98px) {
@@ -593,7 +553,6 @@ a {
   }
   .reviewChildWrapper {
     flex-wrap: wrap;
-    /* gap: 14px !important; */
     padding: 0px 0px 50px 0px !important;
   }
   .reviewChildWrapper .reviewChild {
@@ -604,11 +563,9 @@ a {
     margin: 0px !important;
   }
   .category {
-    /* flex-wrap: wrap; */
-    /* width: 100% !important; */
     padding: 0px 35px 0px 35px !important;
   }
-  .printivo-list .list{
+  .printivo-list .list {
     display: none;
   }
   .printivo-list a {
@@ -616,7 +573,6 @@ a {
   }
   #signInList a {
     font-size: 12px !important;
-    /* margin-top: -5px !important; */
   }
   #mainSearchInput {
     width: 100% !important;
@@ -626,7 +582,6 @@ a {
   }
   .list-wrapper {
     width: 100% !important;
-    /* gap: 20px !important; */
     justify-content: space-between !important;
   }
   .content-container {
@@ -674,7 +629,6 @@ a {
     font-size: 10px !important;
     padding: 12px !important;
     border-radius: 60px !important;
-    /* width: 100% !important; */
   }
   .nigeriaFlagContainer .nigeriaFlagContainer-text {
     font-size: 9px !important;
@@ -684,13 +638,8 @@ a {
     width: 13px !important;
     margin-right: 5px !important;
   }
-  .whatsappLogo {
-    /* margin: 0px 80px 0px 0px !important; */
-    /* font-size: 10px !important; */
-  }
   .searchWrapper {
     display: flex;
-    /* margin-top: -10px !important; */
   }
   .searchWrapper .searchBtn {
     background: #fff;
@@ -699,9 +648,6 @@ a {
     padding: 10px 18px;
     font-size: 13px;
   }
-  /* .searchInputWrapper {
-    position: none !important;
-  } */
   .searchInputWrapper #mainSearchInput {
     width: 100% !important;
     margin: 0px 10px 0px 0px;
@@ -738,7 +684,6 @@ a {
   .category {
     margin: 0px 0px 0px -16px !important;
     flex-wrap: wrap;
-    /* width: 80% !important; */
   }
   .categoryTextWrapper {
     gap: 0px !important;
@@ -755,77 +700,72 @@ a {
     max-width: 400px;
     max-height: 500px;
     height: auto;
-    /* padding: 20px !important; */
     margin: 10px auto 0px auto !important;
   }
   .image-wrapper {
     overflow: hidden !important;
     margin: -20px -20px 0px -20px;
-    /* padding: -20px !important; */
   }
   .card-image {
     width: 40rem !important;
     height: 200px;
   }
   .card .card-title {
-  margin: -15px 0px -10px 0px;
-  font-size: 18px;
-  width: 100% !important;
-  font-weight: 600;
-}
-.logoWrapper {
-  margin: 100px 30px 50px 30px !important;
-}
-.logoWrapper h1 {
-  width: 100% !important;
-  font-size: 33px !important;
-}
+    margin: -15px 0px -10px 0px;
+    font-size: 18px;
+    width: 100% !important;
+    font-weight: 600;
+  }
+  .logoWrapper {
+    margin: 100px 30px 50px 30px !important;
+  }
+  .logoWrapper h1 {
+    width: 100% !important;
+    font-size: 33px !important;
+  }
 
-.logoWrapper p {
-  font-size: 16px !important;
-  word-spacing: normal !important;
-}
+  .logoWrapper p {
+    font-size: 16px !important;
+    word-spacing: normal !important;
+  }
 
-.reviewOverallContainer .reviewOverallContainerHeader {
-  /* width: 100% !important; */
-  font-size: 28px !important;
-  margin: 50px 20px 25px 20px !important;
-  /* text-align: left !important;
-  margin-left: 0px !important; */
-}
+  .reviewOverallContainer .reviewOverallContainerHeader {
+    font-size: 28px !important;
+    margin: 50px 20px 25px 20px !important;
+  }
 
-.noticesAllWrapper {
-  margin: 0px 0px 0px -40px !important;
-}
+  .noticesAllWrapper {
+    margin: 0px 0px 0px -40px !important;
+  }
 
-.noticesAllWrapper h1 {
-  text-align: left !important;
-  margin: 0px 0px 35px 0px !important;
-  padding-left: 10px !important;
-}
+  .noticesAllWrapper h1 {
+    text-align: left !important;
+    margin: 0px 0px 35px 0px !important;
+    padding-left: 10px !important;
+  }
 
-.price {
-  font-size: 22px;
-  font-weight: 550;
-}
+  .price {
+    font-size: 22px;
+    font-weight: 550;
+  }
 
-.quantity {
-  font-size: 16px;
-  font-weight: 600;
-}
-.button {
-  margin: -5px 0px 0px !important;
-}
-.footerWrapper {
-  padding: 40px 50px 90px 20px !important;
-}
-.featureContainer {
-  margin: 100px 0px 100px 30px !important;
-}
-.featureContainerHeader {
-  font-size: 26px !important;
-}
-.featureWrapper {
-  flex-direction: column !important;
-}
+  .quantity {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .button {
+    margin: -5px 0px 0px !important;
+  }
+  .footerWrapper {
+    padding: 40px 50px 90px 20px !important;
+  }
+  .featureContainer {
+    margin: 100px 0px 100px 30px !important;
+  }
+  .featureContainerHeader {
+    font-size: 26px !important;
+  }
+  .featureWrapper {
+    flex-direction: column !important;
+  }
 }
