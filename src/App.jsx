@@ -10,6 +10,19 @@ import Feature from './components/Feature.jsx';
 import Notices from './components/Notices.jsx';
 import Footer from './components/Footer.jsx';
 
+import twosided from "../src/assets/two-sided.png"
+import flyer2 from "../src/assets/flyer2.png"
+import roundsticker from "../src/assets/roundsticker.png"
+import mugs from "../src/assets/mugs.png"
+import postcard from "../src/assets/postcard.jpg"
+import rollupbanner from "../src/assets/rollup-banner.png"
+import drycleaners from "../src/assets/drycleaners.png"
+import brochureprinting from "../src/assets/brochure printing.png"
+import companynamecard from "../src/assets/company name card.png"
+import whitetshirt from "../src/assets/white t-shirt.png"
+import clothing from "../src/assets/clothing.png"
+import printivobag from "../src/assets/printivo bag.jpeg"
+
 function App() {
 
   return (
@@ -26,73 +39,73 @@ function App() {
           }}>
           <Card
             title="Two-sided Business Cards"
-            imageUrl="../src/assets/two-sided.png"
+            imageUrl={twosided}
             amount=" ₦15,100"
             quantity={100}
           />
           <Card 
             title="A5 flyers (Single Sided)"
-            imageUrl="../src/assets/flyer2.png"
+            imageUrl={flyer2}
             amount=" ₦25,800"
             quantity={100}
           />
           <Card
             title="Round Stickers (3.5'' Diameter)"
-            imageUrl="../src/assets/roundsticker.png"
+            imageUrl={roundsticker}
             amount=" ₦17,000"
             quantity={100} 
           />
           <Card
             title="Simple Mugs"
-            imageUrl="../src/assets/mugs.png"
+            imageUrl={mugs}
             amount=" ₦4,800"
             quantity={1} 
           />
           <Card
             title="Postcards (A6)"
-            imageUrl="../src/assets/postcard.jpg"
+            imageUrl={postcard}
             amount=" ₦22,300"
             quantity={50} 
           />
           <Card
             title="Roll Up Banners (Big Base)"
-            imageUrl="../src/assets/rollup-banner.png"
+            imageUrl={rollupbanner}
             amount=" ₦55,000"
             quantity={1} 
           />
           <Card
             title="A2 Posters"
-            imageUrl="../src/assets/drycleaners.png"
+            imageUrl={drycleaners}
             amount=" ₦71,000"
             quantity={100} 
           />
           <Card
             title="Trifold Brochures"
-            imageUrl="../src/assets/brochure printing.png"
+            imageUrl={brochureprinting}
             amount=" ₦47,500"
             quantity={100} 
           />
           <Card
             title="Landscape ID Cards"
-            imageUrl="../src/assets/company name card.png"
+            imageUrl={companynamecard}
             amount=" ₦3,100"
             quantity={1} 
           />
           <Card 
             title="Off White T-shirts"
-            imageUrl="../src/assets/white t-shirt.png"
+            imageUrl={whitetshirt}
             amount=" ₦6,000"
             quantity={1} 
           />
           <Card
             title="A4 Branded Paper Bags"
-            imageUrl="../src/assets/clothing.png"
+            imageUrl={clothing}
             amount=" ₦104,800"
             quantity={100} 
           />
           <Card
             title="A4 Courier Bags"
-            imageUrl="../src/assets/printivo bag.jpeg"
+            imageUrl={printivobag}
             amount=" ₦27,500"
             quantity={100} 
           />
